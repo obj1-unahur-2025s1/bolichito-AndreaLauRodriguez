@@ -93,4 +93,43 @@ object placa {
     }
 }
 
+object arito {
+    const color = celeste
+    method color() = color
+    const material = cobre
+    method material() = material
+    const peso = 180
+    method peso() = peso
+}
+
+object banquito {
+    var color = naranja
+    method color() = color
+    method color(unColor){
+        color = unColor
+    }
+    const material = madera
+    method material() = material
+    const peso = 1700
+    method peso() = peso
+    
+}
+
+object cajita{
+    var objetoInterno = arito  
+    method objetoInterno() = objetoInterno 
+    method objetoInterno(unObjeto){
+    objetoInterno = unObjeto
+    }
+    const color = rojo
+    method color() = color
+    const material = cobre
+    method material() = material
+    const peso = 400
+    method peso() = peso + objetoInterno.peso()
+    }
+
+
+
+
 
